@@ -7,7 +7,7 @@
 
 This repository contains the demonstration formulas which can be executed by the [ritchie-cli](https://github.com/ZupIT/ritchie-cli).
 
-## How to execute access those commands with Ritchie CLI?
+## How to execute access those commands with Ritchie CLI
 
 1. [Install Ritchie CLI](https://docs.ritchiecli.io/getting-started/installation)
 2. [Initialize Ritchie CLI](https://docs.ritchiecli.io/getting-started/initialization)
