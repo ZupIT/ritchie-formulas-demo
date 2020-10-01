@@ -1,0 +1,4 @@
+{
+  "dockerImageBuilder": "cimg/python:3.8",
+  "inputs": []
+}
