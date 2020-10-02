@@ -1,0 +1,41 @@
+{
+  "dockerImageBuilder": "cimg/python:3.8",
+  "inputs": [
+    {
+      "label": "What is the dice size?",
+      "name": "dice_size",
+      "type": "text",
+      "tutorial": "Number only [0 - 9]",
+      "pattern": {
+        "regex": "^[0-9]*$",
+        "mismatchText": "The input isn't a valid number"
+      }
+    },
+    {
+      "label": "Do you want to perfom more than one attempt ?",
+      "name": "loop",
+      "type": "text",
+      "items":[
+        "yes",
+        "no"
+      ],
+      "default": "no"
+    },
+    {
+      "condition": {
+        "variable":"loop",
+        "operator":"==",
+        "value":"yes"
+      },
+      "label": "How many attempts ?",
+      "name": "quantity",
+      "type": "text",
+      "tutorial": "Number only [0 - 9]",
+      "pattern": {
+        "regex": "^[0-9]*$",
+        "mismatchText": "The input isn't a valid number"
+      }
+    }
+    
+  ]
+}
