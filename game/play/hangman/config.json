@@ -3,13 +3,11 @@
   "inputs": [
     {
       "items": [
-        "Tecnologias (easy)",
-        "Produtos Zup (easy)",
-        "Benfícios Zup (medium)",
-        "Pilares Cultura Zup (medium)",
-        "Habilidades Zupper (hard)"
+        "Database (easy)",
+        "Programming languages (medium)",
+        "Frameworks (hard)"
       ],
-      "label": "Escolha o tema: ",
+      "label": "Choose the theme: ",
       "name": "tema",
       "type": "text"
     }

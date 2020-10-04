@@ -1,20 +1,14 @@
 #!/bin/sh
 
 runFormula() {
-    if [ "$TEMA" == "Pilares Cultura Zup (medium)" ]; then
-      filename="pilares-cultura"
+    if [ "$TEMA" == "Databases (easy)" ]; then
+      filename="bancos"
     fi
-    if [ "$TEMA" == "Tecnologias (easy)" ]; then
-      filename="tecnologias"
+    if [ "$TEMA" == "Programming languages (medium)" ]; then
+      filename="linguagens"
     fi
-    if [ "$TEMA" == "Produtos Zup (easy)" ]; then
-      filename="produtos-zup"
-    fi
-    if [ "$TEMA" == "Habilidades Zupper (hard)" ]; then
-      filename="habilidades"
-    fi
-    if [ "$TEMA" == "Benfícios Zup (medium)" ]; then
-      filename="beneficios"
+    if [ "$TEMA" == "Frameworks (hard)" ]; then
+      filename="frameworks"
     fi
 
     clear
@@ -181,7 +175,7 @@ function main() {
     limit=7
 
     while [[ $wrong -lt $limit ]]; do
-        echo "Hangman Ritchie - Tema: " $TEMA
+        echo "Hangman Ritchie - Theme: " $TEMA
         case $wrong in
             0)echo " "
             ;;
@@ -213,8 +207,8 @@ function main() {
             fi
         done
 
-        echo "🔠 Letras digitadas:" ${guesslist[@]}
-        echo "🔴 Número de erros:" $wrong "/" $limit
+        echo "🔠 Typed letters:" ${guesslist[@]}
+        echo "🔴 Number of errors:" $wrong "/" $limit
         for ((k=0;k<$len;k++)); do
             echo -n "${guess[$k]} "
         done
@@ -222,7 +216,7 @@ function main() {
         echo
 
         if [[ notover -eq 1 ]]; then
-            echo -n "📝 Digite uma letra: "
+            echo -n "📝 Type a letter: "
             read -n 1 -e letter
             letter=$(echo $letter | tr [A-Z] [a-z])
             guesslist[$guin]=$letter
@@ -243,9 +237,7 @@ function main() {
         if [[ notover -eq 0 ]]; then
             echo
             echo "🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
-            echo "🏆    👏👏👏👏    Você ganhou, parabéns! 😁😆        👏👏👏👏   🏆"
-            echo "🏆 Aproveite e compartilhe seu conhecimento com outros zupper   🏆"
-            echo "🏆 🌍 https://sites.google.com/zup.com.br/zup                   🏆"
+            echo "🏆    👏👏👏👏    You won, congratulations! 😁😆      👏👏👏👏   🏆"
             echo "🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆"
             echo
             play_again
@@ -255,17 +247,15 @@ function main() {
 
     wrong7
     echo "🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳"
-    echo "                     Você perdeu.! 😠😭                         "
-    echo "Mas não desanime, acesse a Zup Net e conheça tudo sobre a Zup.  "
-    echo "🌍 https://sites.google.com/zup.com.br/zup                      "
-    echo "                    A palavra era: $word                       "
+    echo "                     Yout lost! 😠😭                            "
+    echo "                    The word was: $word                         "
     echo "🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳🔳"
     play_again
 }
 
 function play_again() {
     echo
-    echo -n "Gostaria de jogar novamente ? (y/n) "
+    echo -n "I would like to play again ? (y/n) "
     read -n 1 choice
     case $choice in
         [yY]) clear
@@ -273,11 +263,10 @@ function play_again() {
         ;;
     esac
     clear
-    echo "Obrigado por jogar e testar o Ritchie"
+    echo "Thanks for playing and testing Ritchie"
     echo 🌍 https://ritchiecli.io
-    echo 🌍 https://sites.google.com/zup.com.br/zup
-    echo 
-    echo "Jogo adaptado do https://github.com/akshayub/Hangman-Bash"
+    echo
+    echo "Game adapted from https://github.com/akshayub/Hangman-Bash"
     echo
     tput cnorm
     exit
