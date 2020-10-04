@@ -10,7 +10,7 @@ rit game play hangman
 
 This formula creates a "hangman" game in the terminal to be played via the command line.
 It is possible to choose between 5 themes between easy and difficult.
-Good luck.
+Good luck!
 
 ## Execution sample
 
