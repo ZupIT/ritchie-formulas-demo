@@ -1,0 +1,19 @@
+{
+  "execution": [
+    "local",
+    "docker"
+  ],
+  "os": {
+    "deps": [
+      "powershell"
+    ],
+    "support": [
+      "windows",
+      "linux",
+      "mac"
+    ]
+  },
+  "tags": [
+    "game", "play", "snake"
+  ]
+}
