@@ -1,0 +1,17 @@
+{
+  "dockerImageBuilder": "cimg/base:stable-20.04",
+  "inputs": [
+    {
+      "items": [
+        "Tecnologias (easy)",
+        "Produtos Zup (easy)",
+        "Benfícios Zup (medium)",
+        "Pilares Cultura Zup (medium)",
+        "Habilidades Zupper (hard)"
+      ],
+      "label": "Escolha o tema: ",
+      "name": "tema",
+      "type": "text"
+    }
+  ]
+}
