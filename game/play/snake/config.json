@@ -1,0 +1,3 @@
+{
+  "dockerImageBuilder": "chiaretto/powershell-sudo"
+}

@@ -9,7 +9,8 @@
       },
       "label": "Type your name: ",
       "name": "name",
-      "type": "text"
+      "type": "text",
+      "tutorial": "Add your name"
     },
     {
       "default": "espresso",
@@ -21,7 +22,8 @@
       ],
       "label": "Pick your coffee: ",
       "name": "coffee_type",
-      "type": "text"
+      "type": "text",
+      "tutorial": "Select a coffee"
     },
     {
       "default": "false",
@@ -31,7 +33,8 @@
       ],
       "label": "Delivery? ",
       "name": "delivery",
-      "type": "bool"
+      "type": "bool",
+      "tutorial": "Choose true if you want it to go"
     }
   ]
 }
