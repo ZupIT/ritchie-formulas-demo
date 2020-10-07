@@ -12,6 +12,8 @@ def Run(text, language, filename):
     if "Windows" in system:
         dirname = os.path.split(__file__)
         filename = dirname[0] + "\\" + filename + ".mp3"
+    else:
+        filename = filename + ".mp3"
         
     gtts.save(filename)
     print("Audio Saved with name", filename)
