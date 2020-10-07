@@ -7,8 +7,9 @@ def Run(text, language, filename):
     gtts = gTTS(text=text, lang=language, slow=False) 
 
     # Create the audio file in mp3 format
-    filename = filename + ".mp3"
-    gtts.save(filename) 
+    dirname = os.path.split(__file__)
+    filename = dirname[0] + "\\" + filename + ".mp3"
+    gtts.save(filename)
     print("Audio Saved with name", filename)
 
     # Play your audio file according to OS
