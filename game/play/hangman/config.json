@@ -1,0 +1,15 @@
+{
+  "dockerImageBuilder": "cimg/base:stable-20.04",
+  "inputs": [
+    {
+      "items": [
+        "Database (easy)",
+        "Programming languages (medium)",
+        "Frameworks (hard)"
+      ],
+      "label": "Choose the theme: ",
+      "name": "tema",
+      "type": "text"
+    }
+  ]
+}
