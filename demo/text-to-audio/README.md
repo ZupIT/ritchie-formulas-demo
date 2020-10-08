@@ -1,5 +1,13 @@
 # Ritchie Formula
 
+## Premisses
+
+`Linux`: mpg321 installed using `apt-get install mpg321`
+
+`MacOS` : None
+
+`Windows` : None
+
 ## Command
 
 ```bash
