@@ -2,7 +2,8 @@
 
 ## Premisses
 
-- [Node.js installed](https://nodejs.org/)
+- [Node.js installed](https://nodejs.org/) (to run locally)
+- [Docker installed](https://docs.docker.com/get-docker/) (to run on Docker)
 
 ## Command
 
