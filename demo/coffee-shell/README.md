@@ -2,7 +2,8 @@
 
 ## Premisses
 
-- UNIX like environment, [on Windows 10 is also possible](https://docs.microsoft.com/en-us/windows/wsl/install-win10l). To run locally, don't need if you're running with Docker.
+- UNIX like environment, [on Windows 10 is also possible](https://docs.microsoft.com/en-us/windows/wsl/install-win10l) (to run locally)
+- [Docker installed](https://docs.docker.com/get-docker/) (to run on Docker)
 
 ## Command
 
