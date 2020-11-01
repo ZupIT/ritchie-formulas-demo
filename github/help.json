@@ -1,0 +1,4 @@
+{
+	"short": "Return Github credentials",
+	"long": "Return a JSON containing Github credentials"
+}

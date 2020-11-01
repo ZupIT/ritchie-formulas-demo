@@ -1,0 +1,17 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-node-builder",
+  "inputs": [
+    {
+      "name": "git_user",
+      "type": "CREDENTIAL_GITHUB_USERNAME"
+    },
+    {
+      "name": "git_email",
+      "type": "CREDENTIAL_GITHUB_EMAIL"
+    },
+    {
+      "name": "git_token",
+      "type": "CREDENTIAL_GITHUB_TOKEN"
+    }
+  ]
+}
