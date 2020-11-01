@@ -1,0 +1,26 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-node-builder",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "default": "0",
+      "label": "Enter a number: ",
+      "name": "number_one",
+      "type": "text",
+      "tutorial": "Your prefer number",
+      "required": true
+    },
+    {
+      "default": "0",
+      "label": "Enter another number: ",
+      "name": "number_two",
+      "type": "text",
+      "tutorial": "Your prefer number",
+      "required": true
+    }
+  ]
+}
