@@ -1,0 +1,98 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-node-builder",
+  "inputs": [
+    {
+      "label": "Type your profile",
+      "name": "profiles",
+      "type": "text",
+      "required": true,
+      "tutorial": "Select a profile",
+      "items": [
+        "BACK-END",
+        "FRONT-END",
+        "FULLSTACK",
+        "DEVOPS"
+      ]
+    },
+    {
+      "condition": {
+        "variable": "profiles",
+        "operator": "==",
+        "value": "BACK-END"
+      },
+      "label": "Select a stack:",
+      "name": "backend",
+      "required": false,
+      "type": "text",
+      "items": [
+        "NODEJS",
+        "SPRING BOOT",
+        "RUBY ON RAILS"
+      ],
+      "pattern": {
+        "regex": "NODEJS|SPRING BOOT|RUBY ON RAILS",
+        "mismatchText": "Invalid option"
+      }
+    },
+    {
+      "condition": {
+        "variable": "profiles",
+        "operator": "==",
+        "value": "FRONT-END"
+      },
+      "label": "Select a stack:",
+      "name": "frontend",
+      "required": false,
+      "type": "text",
+      "items": [
+        "REACT",
+        "ANGULAR",
+        "VUE"
+      ],
+      "pattern": {
+        "regex": "REACT|ANGULAR|VUE",
+        "mismatchText": "Invalid option"
+      }
+    },
+    {
+      "condition": {
+        "variable": "profiles",
+        "operator": "==",
+        "value": "FULLSTACK"
+      },
+      "label": "Select a stack:",
+      "name": "fullstack",
+      "required": false,
+      "type": "text",
+      "items": [
+        "NODEJS & REACTJS",
+        "SPRING & ANGULAR",
+        "VUE & NODEJS"
+      ],
+      "pattern": {
+        "regex": "NODEJS & REACTJS|SPRING & ANGULAR|VUE & NODEJS",
+        "mismatchText": "Invalid option"
+      }
+    },
+    {
+      "condition": {
+        "variable": "profiles",
+        "operator": "==",
+        "value": "DEVOPS"
+      },
+      "label": "Select a stack:",
+      "name": "devops",
+      "required": false,
+      "type": "text",
+      "items": [
+        "GIT",
+        "JENKINS",
+        "DOCKER"
+      ],
+      "pattern": {
+        "regex": "GIT|JENKINS|DOCKER",
+        "mismatchText": "Invalid option"
+      }
+    }
+  ]
+}
