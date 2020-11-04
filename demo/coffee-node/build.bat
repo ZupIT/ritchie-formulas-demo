@@ -17,8 +17,7 @@ SET SH_FILE=%BIN_FOLDER%\run.sh
 
 :BAT_WINDOWS
     echo @ECHO OFF > %BAT_FILE%
-    echo SET mypath=%%~dp0 >> %BAT_FILE%
-    echo start /B /WAIT node %%mypath:~0,-1%%/main.js >> %BAT_FILE%
+    echo start /B /WAIT node main.js >> %BAT_FILE%
 
 :SH_LINUX
     echo node "$(dirname "$0")"/main.js > %SH_FILE%
