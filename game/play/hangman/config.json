@@ -8,7 +8,7 @@
         "Frameworks (hard)"
       ],
       "label": "Choose the theme: ",
-      "name": "tema",
+      "name": "rit_tema",
       "type": "text"
     }
   ]
