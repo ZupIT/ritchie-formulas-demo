@@ -3,7 +3,7 @@
   "inputs": [
     {
       "label": "What is the dice size?",
-      "name": "dice_size",
+      "name": "rit_dice_size",
       "type": "text",
       "tutorial": "Number only [0 - 9]",
       "pattern": {
@@ -13,7 +13,7 @@
     },
     {
       "label": "Do you want to perfom more than one attempt ?",
-      "name": "loop",
+      "name": "rit_loop",
       "type": "text",
       "items":[
         "yes",
@@ -28,7 +28,7 @@
         "value":"yes"
       },
       "label": "How many attempts ?",
-      "name": "quantity",
+      "name": "rit_quantity",
       "type": "text",
       "tutorial": "Number only [0 - 9]",
       "pattern": {

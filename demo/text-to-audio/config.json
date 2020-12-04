@@ -3,12 +3,12 @@
   "inputs": [
     {
       "label": "Text to convert to audio:",
-      "name": "text",
+      "name": "rit_text",
       "type": "text"
     },
     {
       "label": "What is the text language?",
-      "name": "language",
+      "name": "rit_language",
       "type": "text",
       "items": [
         "en",
@@ -18,7 +18,7 @@
     },
     {
       "label": "What will be the audio filename?",
-      "name": "filename",
+      "name": "rit_filename",
       "type": "text"
     }
   ]

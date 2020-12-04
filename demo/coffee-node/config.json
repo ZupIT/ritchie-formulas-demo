@@ -8,7 +8,7 @@
         "qty": 6
       },
       "label": "Type your name: ",
-      "name": "name",
+      "name": "rit_name",
       "type": "text",
       "tutorial": "Add your name"
     },
@@ -21,7 +21,7 @@
         "latte"
       ],
       "label": "Pick your coffee: ",
-      "name": "coffee_type",
+      "name": "rit_coffee_type",
       "type": "text",
       "tutorial": "Select a coffee"
     },
@@ -32,7 +32,7 @@
         "true"
       ],
       "label": "Delivery? ",
-      "name": "delivery",
+      "name": "rit_delivery",
       "type": "bool",
       "tutorial": "Choose true if you want it to go"
     }

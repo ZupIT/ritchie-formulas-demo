@@ -1,13 +1,13 @@
 #!/bin/sh
 
 runFormula() {
-    if [ "$TEMA" == "Databases (easy)" ]; then
+    if [ "$RIT_TEMA" == "Databases (easy)" ]; then
       filename="bancos"
     fi
-    if [ "$TEMA" == "Programming languages (medium)" ]; then
+    if [ "$RIT_TEMA" == "Programming languages (medium)" ]; then
       filename="linguagens"
     fi
-    if [ "$TEMA" == "Frameworks (hard)" ]; then
+    if [ "$RIT_TEMA" == "Frameworks (hard)" ]; then
       filename="frameworks"
     fi
 
@@ -175,7 +175,7 @@ function main() {
     limit=7
 
     while [[ $wrong -lt $limit ]]; do
-        echo "Hangman Ritchie - Theme: " $TEMA
+        echo "Hangman Ritchie - Theme: " $RIT_TEMA
         case $wrong in
             0)echo " "
             ;;
