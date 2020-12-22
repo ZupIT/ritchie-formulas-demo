@@ -1,0 +1,22 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+        "label": "Choose one or more days",
+        "name": "rit_days",
+        "type": "multiselect",
+        "items": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+      ],
+      "required": true,
+      "tutorial": "Select one or more days on the list (use SPACE to select and ENTER to validate)"
+    }
+]
+
+}
