@@ -11,7 +11,8 @@ This repository contains the demonstration formulas which can be executed by the
 
 1. [Install Ritchie CLI](https://docs.ritchiecli.io/getting-started/installation)
 2. [Initialize Ritchie CLI](https://docs.ritchiecli.io/getting-started/initialization)
-3. Add the [ritchie-formulas-demo repository](https://github.com/ZupIT/ritchie-formulas-demo) using the **RIT ADD REPO** command or through the command line below:
+3. Add the [ritchie-formulas-demo repository](https://github.com/ZupIT/ritchie-formulas-demo) using the **RIT ADD REPO** command
+Through the command line below:
 
 ```bach
 echo '{"provider":"Github", "name":"demo", "version":"2.0.0", "url":"https://github.com/ZupIT/ritchie-formulas-demo", "token": null, "priority":"1"}' | rit add repo --stdin
