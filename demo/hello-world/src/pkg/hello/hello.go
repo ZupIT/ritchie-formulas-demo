@@ -20,7 +20,7 @@ type Hello struct {
 func (h Hello) Run(writer io.Writer) {
 	var result string
 
-	result += fmt.Sprintf("Hello World!\n")
+	result += fmt.Sprintf("Hello World.\n")
 
 	result += color.FgGreen.Render(fmt.Sprintf("My name is %s.\n", h.Text))
 
