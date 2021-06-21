@@ -16,4 +16,4 @@ jobs:
         repo-owner: ZupIT
         repo-name: ritchie-cli
         issue-title: Ritchie Formula Demo Repo new release ${{ github.event.release.tag_name }}
-        issue-body: Update assert.txt files on https://github.com/ZupIT/ritchie-cli/tree/master/testdata/gha_workflows/repo_workflow due to https://github.com/ZupIT/ritchie-formulas-demo/issues new release.
+        issue-body: Update assert.txt files on https://github.com/ZupIT/ritchie-cli/tree/master/testdata/gha_workflows/repo_workflow due to https://github.com/ZupIT/ritchie-formulas-demo new release.
