@@ -11,9 +11,9 @@ func main() {
 }
 
 func loadInputs() coffee.Inputs {
-	delivery, _ := strconv.ParseBool(os.Getenv("DELIVERY"))
-	name := os.Getenv("NAME")
-	coffeeType := os.Getenv("COFFEE_TYPE")
+	delivery, _ := strconv.ParseBool(os.Getenv("RIT_DELIVERY"))
+	name := os.Getenv("RIT_NAME")
+	coffeeType := os.Getenv("RIT_COFFEE_TYPE")
 	return coffee.Inputs{
 		Name:       name,
 		CoffeeType: coffeeType,

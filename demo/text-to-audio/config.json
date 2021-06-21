@@ -1,0 +1,25 @@
+{
+  "dockerImageBuilder": "cimg/python:3.8",
+  "inputs": [
+    {
+      "label": "Text to convert to audio:",
+      "name": "rit_text",
+      "type": "text"
+    },
+    {
+      "label": "What is the text language?",
+      "name": "rit_language",
+      "type": "text",
+      "items": [
+        "en",
+        "fr",
+        "pt"
+      ]
+    },
+    {
+      "label": "What will be the audio filename?",
+      "name": "rit_filename",
+      "type": "text"
+    }
+  ]
+}

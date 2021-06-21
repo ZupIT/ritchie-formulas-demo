@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 <!-- Contributing from template
 (https://github.com/docker/docker.github.io/blob/master/CONTRIBUTING.md) -->
 
@@ -108,4 +109,4 @@ try to follow the example set by the existing files.
 
 - If you want to contribute with something thay doesn't have any ISSUE yet, you can create a new detailed ISSUE for our team to evaluate, and they will eventually add a Hackoberfest label to allow you to participate the event resolving this ISSUE.
 
-- Formulas created for the Hacktoberfest will be submitted to our team review before validation for the [Zup Hacktoberfest event](https://insights.zup.com.br/hacktoberfest/). 
+- Formulas created for the Hacktoberfest will be submitted to our team review before validation for the [Zup Hacktoberfest event](https://insights.zup.com.br/hacktoberfest/).

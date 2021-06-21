@@ -1,19 +1,28 @@
 # coffee-python
 
-## command
+## Premisses 
+- [Python installed.](https://www.python.org/downloads/) (Only required for executing the formula locally, Not needed for Docker)
 
+## Command
+- Terminal
 ```bash
 rit demo coffee-python
 ```
+- Docker
+```
+rit demo coffee-python --docker
+```
+## Description
 
-## description
+This is formula receives 3 inputs:
 
-This is formula receive 3 inputs:
+- Customer name,
 
-- customer name,
+- Coffee type,
 
-- coffee type,
+- Delivery (Yes/No)
 
-- delivery
+and builds a coffee!
 
-and builds a coffee.
+## Demo
+![Coffee-python-gif](https://media.giphy.com/media/Z37mD4EvbgDrVOlnzr/giphy.gif)

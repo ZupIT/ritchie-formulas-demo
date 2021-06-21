@@ -8,8 +8,9 @@
         "qty": 6
       },
       "label": "Type your name: ",
-      "name": "name",
-      "type": "text"
+      "name": "rit_name",
+      "type": "text",
+      "tutorial": "Add your name"
     },
     {
       "default": "espresso",
@@ -20,8 +21,9 @@
         "latte"
       ],
       "label": "Pick your coffee: ",
-      "name": "coffee_type",
-      "type": "text"
+      "name": "rit_coffee_type",
+      "type": "text",
+      "tutorial": "Select a coffee"
     },
     {
       "default": "false",
@@ -30,8 +32,9 @@
         "true"
       ],
       "label": "Delivery? ",
-      "name": "delivery",
-      "type": "bool"
+      "name": "rit_delivery",
+      "type": "bool",
+      "tutorial": "Choose true if you want it to go"
     }
   ]
 }
