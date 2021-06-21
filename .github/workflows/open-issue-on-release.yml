@@ -9,11 +9,11 @@ jobs:
   open-issue:
     runs-on: ubuntu-latest
     steps:
-    - name: Open new ISSUE on ZupIT/ritchie-cli repository
+    - name: Open new ISSUE on GuillaumeFalourd/ritchie-cli repository
       uses: GuillaumeFalourd/open-issue-action@v1
       with:
         access-token: ${{ secrets.ACCESS_TOKEN }}
-        repo-owner: ZupIT
+        repo-owner: GuillaumeFalourd
         repo-name: ritchie-cli
         issue-title: Ritchie Formula Demo Repo new release ${{ github.event.release.tag_name }}
-        issue-body: Update assert.txt files on https://github.com/ZupIT/ritchie-cli/tree/master/testdata/gha_workflows/repo_workflow due to https://github.com/ZupIT/ritchie-formulas-demo/issues new release.
+        issue-body: Update assert.txt files on https://github.com/GuillaumeFalourd/ritchie-cli/tree/master/testdata/gha_workflows/repo_workflow due to https://github.com/GuillaumeFalourd/ritchie-formulas-demo/issues new release.
