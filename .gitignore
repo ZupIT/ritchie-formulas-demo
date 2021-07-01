@@ -12,8 +12,6 @@
 **/dist/*
 /test/tests.*
 /test/coverage.*
-/go.sum
-**/go.sum
 /pkg/*
 /formulas/*
 target/
