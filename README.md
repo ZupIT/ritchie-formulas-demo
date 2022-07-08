@@ -1,3 +1,7 @@
+# The Ritchie CLI project has been archived by Zup Innovation. It might start again eventually; however, we won't deliver support for now.
+
+
+
 <!-- markdownlint-disable MD041 MD033 MD013 -->
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
